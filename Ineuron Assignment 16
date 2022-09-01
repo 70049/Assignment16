@@ -1,0 +1,22 @@
+Q1.   Write a python script to store multiple items in a single variable(items are "Java","python","SQL","C") using tuple.
+Ans.   t1=("Java","pyhton","SQL","C")
+
+Q2.   Write a python program to store only one item using tuple.
+Ans.   t1=tuple(input("Enter a number: ").split(','))
+
+Q3.   Write a python program to reverse the tuple.
+Ans.   t1=tuple(input("Enter any object sereted by comma: ").split(',')
+       print(t1[::-1])
+       
+Q4.   Write a python program to swap two tuple in python.
+Ans.   t1=tuple(("Enter object sepreted by comma: ").split(','))
+       t2=tuple(("Enter object sepreted by comma: ").split(','))
+       t3=()
+       t3=t1
+       t1=t2
+       t2=t3
+       print(t1,t2)
+       
+Q5.   Write a python program to check if all items are in the tuple are the same.
+Ans.   
+       
