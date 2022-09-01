@@ -17,6 +17,37 @@ Ans.   t1=tuple(("Enter object sepreted by comma: ").split(','))
        t2=t3
        print(t1,t2)
        
-Q5.   Write a python program to check if all items are in the tuple are the same.
+//Q5.   Write a python program to check if all items are in the tuple are the same.
 Ans.   
        
+Q6.    Write a python program to divide the tuple into four variable.
+Ans.    t1=(100,200,300,400)
+        for e in t1:
+             a,b,c,d=t1
+        print(a,b,c,d)
+        
+Q7.    Write a python program to copy element 4 and 5 from the following tuple into new tuple
+                    tuple1=(1,2,3,4,5,6)
+Ans.    tuple1=(1,2,3,4,5,6)
+        t2=tuple([tuple1[3]])
+        t3=tupple([tuple[4]])
+        print("The New Tuple t2 is{} and t3 is{}".format(t2,t3))
+        
+//Q8.    Write a python program to sort a tuple of tuple by the second item.
+                    t1=(('a',21),('b',37),('c',11),('d',29))
+Ans.    
+
+Q9.    Write a pyhton program to print the value 20 from the given nested tuple.
+                  t1=("pyhton",[10,20,30].(2,4,16))
+Ans.    print(tuple([t1[1][1]]))
+
+Q10.   Write the python program to change the first item (22) of a list within the follwing tuple to 222.
+              t1=(11,[22,33],44,55)
+Ans.    t1=(11,[22,33],(2,4,16))
+        t2=list(t1)
+        t2[1][0]=222
+        print(t2)                      
+                       '''If we want to change the t2 value again in tuple we can t1=tuple(t2)'''
+                       '''then we can find t1 value as in their first form'''
+                       
+                       
