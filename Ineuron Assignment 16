@@ -18,7 +18,18 @@ Ans.   t1=tuple(("Enter object sepreted by comma: ").split(','))
        print(t1,t2)
        
 //Q5.   Write a python program to check if all items are in the tuple are the same.
-Ans.   
+Ans.     s1=[1005,1005,1005,154,1005,120]
+         a=s1[0]
+         flag=0
+         for i in s1:
+             if(a==i):
+               flag=0
+             else:
+               break
+         if flag==1:
+            print("all the item isn't same")
+         else:
+            print("All the item are same")
        
 Q6.    Write a python program to divide the tuple into four variable.
 Ans.    t1=(100,200,300,400)
